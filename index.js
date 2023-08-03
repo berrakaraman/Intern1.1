@@ -26,12 +26,12 @@ function measureTwoPerformance(){
     end = performance.now();
     timeW= end - start;
     timeOutW= timeW/1000;
-    console.log("Letter Time: " + timeOutW.toFixed(2) + " second");
+    console.log("Letter Time: " + timeOutW.toFixed(3) + " second");
 }
 
 measurePerformance();
 measureTwoPerformance();
-console.log("Number Time: " + timeOut.toFixed(2) + " second");
+console.log("Number Time: " + timeOut.toFixed(3) + " second");
 
 function Result(){
     if(timeOut > timeOutW){
