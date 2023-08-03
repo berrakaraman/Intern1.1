@@ -4,7 +4,7 @@ function measurePerformance(){
     end = performance.now();
     time= end - start;
     timeOut= time/1000;
-    console.log("time: " + timeOut.toFixed(2));
+    console.log("time: " + timeOut.toFixed(2) + " second");
 }
 
 function exampleFunction() {
