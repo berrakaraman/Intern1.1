@@ -16,7 +16,7 @@ function exampleFunction() {
 
 function exampleTwoFunction(){
     for(i = 0; i <= 500000; i++){
-        console.log("Yunus Emre");
+        console.log("Berra Karaman");
     }
 }
 
