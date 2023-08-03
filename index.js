@@ -32,3 +32,13 @@ function measureTwoPerformance(){
 measurePerformance();
 measureTwoPerformance();
 console.log("Number Time: " + timeOut.toFixed(2) + " second");
+
+function Result(){
+    if(timeOut > timeOutW){
+        console.log("Letter is faster");
+    }
+    else{
+        console.log("Number is faster");
+    }
+}
+Result();
